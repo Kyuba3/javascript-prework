@@ -16,6 +16,7 @@ const playGame = function(playerInput){
          return 'nieznany ruch';
        }
      }
+     console.log("small change");
   
     const randomNumber = Math.floor(Math.random() * 3 + 1);
     console.log('Wylosowana liczba to: ' + randomNumber);
